@@ -821,13 +821,13 @@ footer{border-top:2px solid var(--ink);padding:44px 60px;background:var(--ink);c
                       method: "POST",
                       headers: {
                           "Content-Type": "application/json"
-                      },
+                      }, 
                       body: JSON.stringify({
                           firstName: firstName,
                           lastName: lastName,
                           email: email,
                           password: password
-                      })
+                      }) 
                   });
 
                   const data = await response.json();
